@@ -47,6 +47,7 @@ If you have any feedback, please make an Issue with the tag Feedback, or reach o
 [SASS](https://sass-lang.com/) & JavaScript
 
 That's it!
+
 ## Used By
 
 Flare is used by the following projects and companies:
@@ -54,6 +55,11 @@ Flare is used by the following projects and companies:
 - Shaper for Node.js (This is another project I'm curently working on)
 
 If you use Flare and you want to be on this list, create a Pull Request with changes to this section [here](https://github.com/half-real-SCRACX/Flare/pulls) and add a link in the description of the Pull Request.
+
+## License
+  
+Flare is open-source, licensed as [GPL v3](https://www.gnu.org/licenses/gpl-3.0.en.html). So the apps that you build can be licensed however you like.
+
 ## Authors
 
 - [@half-real-SCRACX](https://www.github.com/half-real-SCRACX)
