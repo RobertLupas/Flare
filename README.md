@@ -1,9 +1,22 @@
 ![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
 
-# Flare
-Flare is a modern UI toolkit for building beautiful desktop apps with Electron. Inspired by [WinUI 3](https://microsoft.github.io/microsoft-ui-xaml/) and [Photon](http://photonkit.com/).
+<h1 align="center">Flare</h1>
 
-> Work in progress
+<p align="center">Flare is a modern UI toolkit for building beautiful desktop apps with Electron. Inspired by <a href="https://microsoft.github.io/microsoft-ui-xaml/">WinUI 3</a> and <a href="http://photonkit.com/">Photon</a>.</p>
+
+<h3 align="center"><b>Work in progress</b></h3>
+
+<p align="center">
+  <a href="https://github.com/half-real-SCRACX/Flare/blob/main/LICENSE">
+    <img alt="License" src="https://img.shields.io/github/license/half-real-SCRACX/Flare?color=blue&label=License">
+  </a>
+  
+  <a href="https://github.com/half-real-SCRACX/Flare/issues">
+    <img alt="GitHub issues" src="https://img.shields.io/github/issues/half-real-SCRACX/Flare?label=Issues">
+  </a>
+  
+<p>
+
 ## Documentation
 
 > Documentation is not ready yet
