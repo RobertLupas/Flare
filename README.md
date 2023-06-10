@@ -17,20 +17,20 @@
   
 <p>
 
-## Documentation
+## 🎓 Documentation
 
 > Documentation is not ready yet
 
 
-## Features
+## ✨ Features
 
 > This section needs to be worked on.
 
-## Roadmap
+## 🌱 Roadmap
 
 > This section needs to be worked on
 
-## Contributing
+## 🔧 Contributing
 
 Contributions are always welcome!
 
@@ -38,17 +38,17 @@ Contributions are always welcome!
 
 > Right now, there is no documentation for contributing
 
-## Feedback
+## 🙌 Feedback
 
 If you have any feedback, please make an Issue with the tag Feedback, or reach out to us at the contact options listed [here](#Contact).
 
-## Tech Stack
+## 🤖 Tech Stack
 
 [SASS](https://sass-lang.com/) & JavaScript
 
 That's it!
 
-## Used By
+## 🤝 Used By
 
 Flare is used by the following projects and companies:
 
@@ -56,14 +56,14 @@ Flare is used by the following projects and companies:
 
 If you use Flare and you want to be on this list, create a Pull Request with changes to this section [here](https://github.com/half-real-SCRACX/Flare/pulls) and add a link in the description of the Pull Request.
 
-## License
+## 📄 License
   
 Flare is open-source, licensed as [GPL v3](https://www.gnu.org/licenses/gpl-3.0.en.html). So the apps that you build can be licensed however you like.
 
-## Authors
+## 🧑‍💻 Authors
 
 - [@half-real-SCRACX](https://www.github.com/half-real-SCRACX)
 
-## Contact
+## 💬 Contact
 
 - SCRACX#1774 (Discord)
