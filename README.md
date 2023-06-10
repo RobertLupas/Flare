@@ -17,6 +17,11 @@
   
 <p>
 
+## 🏁 Get started
+
+> Documentation is not ready yet
+
+  
 ## 🎓 Documentation
 
 > Documentation is not ready yet
@@ -47,6 +52,13 @@ If you have any feedback, please make an Issue with the tag Feedback, or reach o
 [SASS](https://sass-lang.com/) & JavaScript
 
 That's it!
+  
+## 📈 Versioning
+
+For maintaining backward compatibility, Flare is maintained under the Semantic Versioning guidelines. We'll adhere to these rules whenever possible.
+  
+Releases will be numbered with the following format:
+`<major>.<minor>.<patch>`
 
 ## 🤝 Used By
 
