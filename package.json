@@ -9,6 +9,10 @@
   "files": [
     "flare.min.css"
   ],
+  "scripts": {
+    "build": "sass --style=compressed --no-source-map ./SASS/main.scss ./flare.min.css",
+    "watch": "sass --watch --no-source-map ./SASS/main.scss ./flare.css"
+  },
   "keywords": [
     "css",
     "sass",
@@ -19,6 +23,7 @@
     "electron",
     "electron.js"
   ],
-  "scripts": {
+  "devDependencies": {
+    "sass": "^1.63.3"
   }
 }
