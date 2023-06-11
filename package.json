@@ -2,11 +2,14 @@
   "name": "Flare",
   "version": "0.1.0",
   "description": "Flare is a modern UI toolkit for building beautiful desktop apps with Electron.",
-  "main": "index.js",
+  "main": "flare.min.css",
   "repository": "https://github.com/half-real-SCRACX/Flare",
   "author": "Robert Lupas",
   "license": "GPL-3.0",
   "private": false,
+  "files": [
+    "flare.min.css"
+  ],
   "scripts": {
   }
 }
