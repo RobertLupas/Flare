@@ -7,6 +7,9 @@
   "author": "Robert Lupas",
   "license": "GPL-3.0",
   "private": false,
+  "scripts": {
+    "start": "webpack serve --mode development --open"
+  },  
   "devDependencies": {
     "css-loader": "^6.8.1",
     "html-webpack-plugin": "^5.5.3",
