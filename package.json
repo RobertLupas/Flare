@@ -10,8 +10,8 @@
     "flare.min.css"
   ],
   "scripts": {
-    "build": "sass --style=compressed --no-source-map ./SASS/main.scss ./flare.min.css && sass --no-source-map ./SASS/main.scss ./flare.css",
-    "watch": "sass --watch --no-source-map ./SASS/main.scss ./flare.css"
+    "build": "sass --style=compressed --no-source-map ./src/main.scss ./flare.min.css && sass --no-source-map ./src/main.scss ./flare.css",
+    "watch": "sass --watch --no-source-map ./src/main.scss ./flare.css"
   },
   "keywords": [
     "css",
