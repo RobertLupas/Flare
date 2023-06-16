@@ -1,3 +1,14 @@
 // Flare made with ❤️ by Robert Lupas (@half-real-SCRACX)
 
-@use './themes/winui3' as winui3;
+
+@import './aspect';
+
+
+body.light{
+    @import './themes/colors-light';
+    @import './style-imports';
+}
+body.dark{
+    @import './themes/colors-dark';
+    @import './style-imports';
+}
