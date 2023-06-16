@@ -1,10 +1,14 @@
 // Flare made with ❤️ by Robert Lupas (@half-real-SCRACX)
 
-@use './themes/winui3-light' as winui-light;
-@use './themes/global' as global;
 
-body.winui-light {
-    p{
-        color: winui-light.$accent;
-    }
+@import './aspect';
+
+
+body.light{
+    @import './themes/colors-light';
+    @import './style-imports';
+}
+body.dark{
+    @import './themes/colors-dark';
+    @import './style-imports';
 }
