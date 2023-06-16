@@ -1,7 +1,7 @@
-body.light button {
+body.light .theme-test {
   color: #085fb6;
 }
 
-body.dark button {
+body.dark .theme-test {
   color: #08b60b;
 }
