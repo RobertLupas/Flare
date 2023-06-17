@@ -4,11 +4,11 @@
 @import './aspect';
 
 
-body.light{
+body.fl.light{
     @import './themes/colors-light';
     @import './style-imports';
 }
-body.dark{
+body.fl.dark{
     @import './themes/colors-dark';
     @import './style-imports';
 }

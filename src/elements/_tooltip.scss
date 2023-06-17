@@ -1,0 +1,116 @@
+$tooltip-background: #1d1d1d;
+$tooltip-size: 14px;
+
+
+// Only display the tooltip for elements with <element data-tooltip="blabla">
+[data-tooltip] {
+  position: relative;
+
+  &:after,
+  &:before {
+    // Position
+    position: absolute;
+    z-index: 10;
+
+    // Hide it by default
+    opacity: 0;
+    border-width: 0;
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+
+    // Transition
+    transition: opacity .6s ease, height 0s ease .6s;
+
+    // Bottom one (default)
+    top: calc(100% - 6px);
+    left: 0;
+    margin-top: 12px;
+    }
+
+  // This is the acutal label-like element
+  &:after {
+
+    // Style
+    background: $tooltip-background;
+
+    // Content
+    content: attr(data-tooltip);
+
+    // Behaviour
+    white-space: pre;
+    }
+
+  &:hover:after,
+  &:focus:after,
+  &:hover:before,
+  &:focus:before {
+    opacity: 1;
+    border-width: 6px;
+    height: auto;
+    }
+
+  &:hover:after,
+  &:focus:after {
+    padding: 3px;
+    border-radius: $radius-sec;
+    border: 1px solid white;
+    font-size: $tooltip-size;
+    }
+  }
+
+
+
+// Top
+.tooltip-top {
+  &:after,
+  &:before {
+    top: auto;
+    bottom: calc(100% - 6px);
+    left: 0;
+    margin-bottom: 12px;
+    }
+
+  &:before {
+    border-color: $tooltip-background transparent transparent;
+    margin-bottom: 0;
+    left: 10px;
+    }
+  }
+
+// Right
+.tooltip-right {
+  &:after,
+  &:before {
+    left: 100%;
+    margin-left: 6px;
+    margin-top: 0;
+    top: 0;
+    }
+
+  &:before {
+    border-color: transparent $tooltip-background transparent transparent;
+    margin-left: -6px;
+    left: 100%;
+    top: 7px;
+    }
+  }
+
+// Left
+.tooltip-left {
+  &:after,
+  &:before {
+    right: 100%;
+    margin-right: 6px;
+    left: auto;
+    margin-top: 0;
+    top: 0;
+    }
+
+  &:before {
+    border-color: transparent transparent transparent $tooltip-background;
+    margin-right: -6px;
+    right: 100%;
+    top: 7px;
+    }
+  }

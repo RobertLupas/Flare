@@ -1,7 +1,187 @@
-body.light .theme-test {
-  color: #085fb6;
+body.fl.light .theme-test {
+  color: #0761bc;
+}
+body.fl.light .block {
+  display: block;
+}
+body.fl.light button {
+  display: inline-block;
+  border-radius: 4px;
+  border-color: #064d95;
+  border-style: solid;
+  border-width: 2.5px;
+  background-color: #0761bc;
+  color: #ffffff;
+  padding: 1px 5px;
+  font-size: 16px;
+  margin: 4px 0;
+}
+body.fl.light button:hover {
+  background-color: #0873de;
+  border-color: #075cb2;
+}
+body.fl.light button.big {
+  padding: 5px;
+}
+body.fl.light [data-tooltip] {
+  position: relative;
+}
+body.fl.light [data-tooltip]:after, body.fl.light [data-tooltip]:before {
+  position: absolute;
+  z-index: 10;
+  opacity: 0;
+  border-width: 0;
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+  transition: opacity 0.6s ease, height 0s ease 0.6s;
+  top: calc(100% - 6px);
+  left: 0;
+  margin-top: 12px;
+}
+body.fl.light [data-tooltip]:after {
+  background: #1d1d1d;
+  content: attr(data-tooltip);
+  white-space: pre;
+}
+body.fl.light [data-tooltip]:hover:after, body.fl.light [data-tooltip]:focus:after, body.fl.light [data-tooltip]:hover:before, body.fl.light [data-tooltip]:focus:before {
+  opacity: 1;
+  border-width: 6px;
+  height: auto;
+}
+body.fl.light [data-tooltip]:hover:after, body.fl.light [data-tooltip]:focus:after {
+  padding: 3px;
+  border-radius: 4px;
+  border: 1px solid white;
+  font-size: 14px;
+}
+body.fl.light .tooltip-top:after, body.fl.light .tooltip-top:before {
+  top: auto;
+  bottom: calc(100% - 6px);
+  left: 0;
+  margin-bottom: 12px;
+}
+body.fl.light .tooltip-top:before {
+  border-color: #1d1d1d transparent transparent;
+  margin-bottom: 0;
+  left: 10px;
+}
+body.fl.light .tooltip-right:after, body.fl.light .tooltip-right:before {
+  left: 100%;
+  margin-left: 6px;
+  margin-top: 0;
+  top: 0;
+}
+body.fl.light .tooltip-right:before {
+  border-color: transparent #1d1d1d transparent transparent;
+  margin-left: -6px;
+  left: 100%;
+  top: 7px;
+}
+body.fl.light .tooltip-left:after, body.fl.light .tooltip-left:before {
+  right: 100%;
+  margin-right: 6px;
+  left: auto;
+  margin-top: 0;
+  top: 0;
+}
+body.fl.light .tooltip-left:before {
+  border-color: transparent transparent transparent #1d1d1d;
+  margin-right: -6px;
+  right: 100%;
+  top: 7px;
 }
 
-body.dark .theme-test {
+body.fl.dark .theme-test {
   color: #08b60b;
+}
+body.fl.dark .block {
+  display: block;
+}
+body.fl.dark button {
+  display: inline-block;
+  border-radius: 4px;
+  border-color: #043769;
+  border-style: solid;
+  border-width: 2.5px;
+  background-color: #08b60b;
+  color: #ffffff;
+  padding: 1px 5px;
+  font-size: 16px;
+  margin: 4px 0;
+}
+body.fl.dark button:hover {
+  background-color: #043769;
+  border-color: #054686;
+}
+body.fl.dark button.big {
+  padding: 5px;
+}
+body.fl.dark [data-tooltip] {
+  position: relative;
+}
+body.fl.dark [data-tooltip]:after, body.fl.dark [data-tooltip]:before {
+  position: absolute;
+  z-index: 10;
+  opacity: 0;
+  border-width: 0;
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+  transition: opacity 0.6s ease, height 0s ease 0.6s;
+  top: calc(100% - 6px);
+  left: 0;
+  margin-top: 12px;
+}
+body.fl.dark [data-tooltip]:after {
+  background: #1d1d1d;
+  content: attr(data-tooltip);
+  white-space: pre;
+}
+body.fl.dark [data-tooltip]:hover:after, body.fl.dark [data-tooltip]:focus:after, body.fl.dark [data-tooltip]:hover:before, body.fl.dark [data-tooltip]:focus:before {
+  opacity: 1;
+  border-width: 6px;
+  height: auto;
+}
+body.fl.dark [data-tooltip]:hover:after, body.fl.dark [data-tooltip]:focus:after {
+  padding: 3px;
+  border-radius: 4px;
+  border: 1px solid white;
+  font-size: 14px;
+}
+body.fl.dark .tooltip-top:after, body.fl.dark .tooltip-top:before {
+  top: auto;
+  bottom: calc(100% - 6px);
+  left: 0;
+  margin-bottom: 12px;
+}
+body.fl.dark .tooltip-top:before {
+  border-color: #1d1d1d transparent transparent;
+  margin-bottom: 0;
+  left: 10px;
+}
+body.fl.dark .tooltip-right:after, body.fl.dark .tooltip-right:before {
+  left: 100%;
+  margin-left: 6px;
+  margin-top: 0;
+  top: 0;
+}
+body.fl.dark .tooltip-right:before {
+  border-color: transparent #1d1d1d transparent transparent;
+  margin-left: -6px;
+  left: 100%;
+  top: 7px;
+}
+body.fl.dark .tooltip-left:after, body.fl.dark .tooltip-left:before {
+  right: 100%;
+  margin-right: 6px;
+  left: auto;
+  margin-top: 0;
+  top: 0;
+}
+body.fl.dark .tooltip-left:before {
+  border-color: transparent transparent transparent #1d1d1d;
+  margin-right: -6px;
+  right: 100%;
+  top: 7px;
 }
