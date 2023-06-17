@@ -1,7 +1,45 @@
-body.light .theme-test {
-  color: #085fb6;
+body.fl.light .theme-test {
+  color: #0761bc;
+}
+body.fl.light .block {
+  display: block;
+}
+body.fl.light button {
+  display: inline-block;
+  border-radius: 4px;
+  border-color: #064d95;
+  border-style: solid;
+  border-width: 2.5px;
+  background-color: #0761bc;
+  color: #ffffff;
+  padding: 1px 5px;
+  font-size: 15px;
+  margin: 4px 0;
+}
+body.fl.light button:hover {
+  background-color: #0873de;
+  border-color: #075cb2;
 }
 
-body.dark .theme-test {
+body.fl.dark .theme-test {
   color: #08b60b;
+}
+body.fl.dark .block {
+  display: block;
+}
+body.fl.dark button {
+  display: inline-block;
+  border-radius: 4px;
+  border-color: #043769;
+  border-style: solid;
+  border-width: 2.5px;
+  background-color: #08b60b;
+  color: #ffffff;
+  padding: 1px 5px;
+  font-size: 15px;
+  margin: 4px 0;
+}
+body.fl.dark button:hover {
+  background-color: #043769;
+  border-color: #054686;
 }
