@@ -20,7 +20,8 @@ $tooltip-size: 14px;
     overflow: hidden;
 
     // Transition
-    transition: opacity .6s ease, height 0s ease .6s;
+    transition: opacity 1s ease, height 0s ease .6s;
+    transition-delay: 1.5s;
 
     // Bottom one (default)
     top: calc(100% - 6px);
