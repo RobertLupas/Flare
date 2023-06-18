@@ -4,6 +4,17 @@ body.fl.light .theme-test {
 body.fl.light .block {
   display: block;
 }
+body.fl.light .inflate:hover {
+  transform: scale(1.04);
+  transition: 70ms;
+}
+body.fl.light .rise:hover {
+  transform: translateY(-2px);
+  transition: 70ms;
+}
+body.fl.light .shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
 body.fl.light button {
   display: inline-block;
   border-radius: 4px;
@@ -20,8 +31,31 @@ body.fl.light button:hover {
   background-color: #0873de;
   border-color: #075cb2;
 }
+body.fl.light button.no-border {
+  border: none;
+  padding: 3px 6px;
+}
+body.fl.light button.gray {
+  background-color: gray;
+  border-color: #6e6e6e;
+}
+body.fl.light button.gray:hover {
+  background-color: #8f8f8f;
+}
+body.fl.light button.simple {
+  background-color: gray;
+  border: none;
+  padding: 3px 6px;
+}
+body.fl.light button.simple:hover {
+  background-color: #8f8f8f;
+}
 body.fl.light button.big {
   padding: 5px;
+}
+body.fl.light button.disabled {
+  opacity: 0.6;
+  filter: saturate(40%);
 }
 body.fl.light [data-tooltip] {
   position: relative;
@@ -98,6 +132,17 @@ body.fl.dark .theme-test {
 body.fl.dark .block {
   display: block;
 }
+body.fl.dark .inflate:hover {
+  transform: scale(1.04);
+  transition: 70ms;
+}
+body.fl.dark .rise:hover {
+  transform: translateY(-2px);
+  transition: 70ms;
+}
+body.fl.dark .shadow {
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.3), 0 6px 20px 0 rgba(255, 255, 255, 0.5);
+}
 body.fl.dark button {
   display: inline-block;
   border-radius: 4px;
@@ -114,8 +159,31 @@ body.fl.dark button:hover {
   background-color: #043769;
   border-color: #054686;
 }
+body.fl.dark button.no-border {
+  border: none;
+  padding: 3px 6px;
+}
+body.fl.dark button.gray {
+  background-color: gray;
+  border-color: #6e6e6e;
+}
+body.fl.dark button.gray:hover {
+  background-color: #8f8f8f;
+}
+body.fl.dark button.simple {
+  background-color: gray;
+  border: none;
+  padding: 3px 6px;
+}
+body.fl.dark button.simple:hover {
+  background-color: #8f8f8f;
+}
 body.fl.dark button.big {
   padding: 5px;
+}
+body.fl.dark button.disabled {
+  opacity: 0.6;
+  filter: saturate(40%);
 }
 body.fl.dark [data-tooltip] {
   position: relative;
