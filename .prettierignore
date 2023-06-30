@@ -1,0 +1,9 @@
+*.min.css
+flare.css
+.github/
+node_modules/
+yarn.lock
+*.md
+LICENSE
+.gitignore
+*.html
