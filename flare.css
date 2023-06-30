@@ -65,7 +65,7 @@ body.fl.light [data-tooltip]:after, body.fl.light [data-tooltip]:before {
   padding: 0;
   overflow: hidden;
   transition: opacity 1s ease, height 0s ease 0.6s;
-  transition-delay: 1.5s;
+  transition-delay: 0.7s;
   top: calc(100% - 6px);
   left: 0;
   margin-top: 12px;
@@ -190,7 +190,7 @@ body.fl.dark [data-tooltip]:after, body.fl.dark [data-tooltip]:before {
   padding: 0;
   overflow: hidden;
   transition: opacity 1s ease, height 0s ease 0.6s;
-  transition-delay: 1.5s;
+  transition-delay: 0.7s;
   top: calc(100% - 6px);
   left: 0;
   margin-top: 12px;
