@@ -42,14 +42,6 @@ body.fl.light button.gray {
 body.fl.light button.gray:hover {
   background-color: #8f8f8f;
 }
-body.fl.light button.simple {
-  background-color: gray;
-  border: none;
-  padding: 3px 6px;
-}
-body.fl.light button.simple:hover {
-  background-color: #8f8f8f;
-}
 body.fl.light button.big {
   padding: 5px;
 }
@@ -173,14 +165,6 @@ body.fl.dark button.gray {
   border-color: #6e6e6e;
 }
 body.fl.dark button.gray:hover {
-  background-color: #8f8f8f;
-}
-body.fl.dark button.simple {
-  background-color: gray;
-  border: none;
-  padding: 3px 6px;
-}
-body.fl.dark button.simple:hover {
   background-color: #8f8f8f;
 }
 body.fl.dark button.big {

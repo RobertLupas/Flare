@@ -28,15 +28,6 @@ button {
     }
   }
 
-  &.simple {
-    background-color: gray;
-    border: none;
-    padding: 3px 6px;
-    &:hover {
-      background-color: lighten(gray, 6);
-    }
-  }
-
   &.big {
     padding: 5px;
   }
