@@ -57,6 +57,10 @@ body.fl.light button.disabled {
   opacity: 0.6;
   filter: saturate(40%);
 }
+body.fl.light button.disabled:hover {
+  opacity: 0.7;
+  filter: saturate(30%);
+}
 body.fl.light [data-tooltip] {
   position: relative;
 }
@@ -185,6 +189,10 @@ body.fl.dark button.big {
 body.fl.dark button.disabled {
   opacity: 0.6;
   filter: saturate(40%);
+}
+body.fl.dark button.disabled:hover {
+  opacity: 0.7;
+  filter: saturate(30%);
 }
 body.fl.dark [data-tooltip] {
   position: relative;
