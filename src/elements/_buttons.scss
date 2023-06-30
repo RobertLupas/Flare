@@ -1,14 +1,12 @@
 button {
   display: inline-block;
-  border-radius: $radius-sec;
-  border-color: $accent-dark;
-  border-style: solid;
-  border-width: $border-width-slim;
   background-color: $accent;
   color: $text-reverse;
-  padding: 1px 5px;
   font-size: 16px;
   margin: 4px 0;
+  border: none;
+  padding: 3px 6px;
+  border-radius: $radius-sec;
 
   &:hover {
     background-color: $accent-light;
@@ -16,8 +14,10 @@ button {
   }
 
   &.no-border {
-    border: none;
-    padding: 3px 6px;
+    padding: 1px 5px;
+    border-color: $accent-dark;
+    border-style: solid;
+    border-width: $border-width-slim;
   }
 
   &.gray {

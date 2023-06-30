@@ -17,23 +17,23 @@ body.fl.light .shadow {
 }
 body.fl.light button {
   display: inline-block;
-  border-radius: 4px;
-  border-color: #064d95;
-  border-style: solid;
-  border-width: 2.5px;
   background-color: #0761bc;
   color: #ffffff;
-  padding: 1px 5px;
   font-size: 16px;
   margin: 4px 0;
+  border: none;
+  padding: 3px 6px;
+  border-radius: 4px;
 }
 body.fl.light button:hover {
   background-color: #0873de;
   border-color: #075cb2;
 }
 body.fl.light button.no-border {
-  border: none;
-  padding: 3px 6px;
+  padding: 1px 5px;
+  border-color: #064d95;
+  border-style: solid;
+  border-width: 2.5px;
 }
 body.fl.light button.gray {
   background-color: gray;
@@ -146,23 +146,23 @@ body.fl.dark .shadow {
 }
 body.fl.dark button {
   display: inline-block;
-  border-radius: 4px;
-  border-color: #043769;
-  border-style: solid;
-  border-width: 2.5px;
   background-color: #08b60b;
   color: #ffffff;
-  padding: 1px 5px;
   font-size: 16px;
   margin: 4px 0;
+  border: none;
+  padding: 3px 6px;
+  border-radius: 4px;
 }
 body.fl.dark button:hover {
   background-color: #043769;
   border-color: #054686;
 }
 body.fl.dark button.no-border {
-  border: none;
-  padding: 3px 6px;
+  padding: 1px 5px;
+  border-color: #043769;
+  border-style: solid;
+  border-width: 2.5px;
 }
 body.fl.dark button.gray {
   background-color: gray;
