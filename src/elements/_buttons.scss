@@ -1,37 +1,28 @@
 button {
   display: inline-block;
-  border-radius: $radius-sec;
-  border-color: $accent-dark;
-  border-style: solid;
-  border-width: $border-width-slim;
   background-color: $accent;
   color: $text-reverse;
-  padding: 1px 5px;
   font-size: 16px;
   margin: 4px 0;
+  border: none;
+  padding: 3px 6px;
+  border-radius: $radius-sec;
 
   &:hover {
     background-color: $accent-light;
     border-color: lighten($accent-dark, 6);
   }
 
-  &.no-border {
-    border: none;
-    padding: 3px 6px;
+  &.border {
+    padding: 1px 5px;
+    border-color: $accent-dark;
+    border-style: solid;
+    border-width: $border-width-slim;
   }
 
   &.gray {
     background-color: gray;
     border-color: darken(gray, 7);
-    &:hover {
-      background-color: lighten(gray, 6);
-    }
-  }
-
-  &.simple {
-    background-color: gray;
-    border: none;
-    padding: 3px 6px;
     &:hover {
       background-color: lighten(gray, 6);
     }
@@ -44,5 +35,9 @@ button {
   &.disabled {
     opacity: 0.6;
     filter: saturate(40%);
+    &:hover {
+      opacity: 0.7;
+      filter: saturate(30%);
+    }
   }
 }

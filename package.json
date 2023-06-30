@@ -10,7 +10,8 @@
     "flare.min.css"
   ],
   "scripts": {
-    "build": "sass --style=compressed --no-source-map ./src/flare.scss ./flare.min.css && sass --no-source-map ./src/flare.scss ./flare.css",
+    "prettify": "yarn prettier --write .",
+    "build": "yarn run prettify && yarn sass --style=compressed --no-source-map ./src/flare.scss ./flare.min.css && sass --no-source-map ./src/flare.scss ./flare.css",
     "watch": "sass --watch --no-source-map ./src/flare.scss ./flare.css"
   },
   "keywords": [

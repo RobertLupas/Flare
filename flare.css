@@ -13,27 +13,27 @@ body.fl.light .rise:hover {
   transition: 70ms;
 }
 body.fl.light .shadow {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
 }
 body.fl.light button {
   display: inline-block;
-  border-radius: 4px;
-  border-color: #064d95;
-  border-style: solid;
-  border-width: 2.5px;
   background-color: #0761bc;
   color: #ffffff;
-  padding: 1px 5px;
   font-size: 16px;
   margin: 4px 0;
+  border: none;
+  padding: 3px 6px;
+  border-radius: 4px;
 }
 body.fl.light button:hover {
   background-color: #0873de;
   border-color: #075cb2;
 }
-body.fl.light button.no-border {
-  border: none;
-  padding: 3px 6px;
+body.fl.light button.border {
+  padding: 1px 5px;
+  border-color: #064d95;
+  border-style: solid;
+  border-width: 2.5px;
 }
 body.fl.light button.gray {
   background-color: gray;
@@ -42,20 +42,16 @@ body.fl.light button.gray {
 body.fl.light button.gray:hover {
   background-color: #8f8f8f;
 }
-body.fl.light button.simple {
-  background-color: gray;
-  border: none;
-  padding: 3px 6px;
-}
-body.fl.light button.simple:hover {
-  background-color: #8f8f8f;
-}
 body.fl.light button.big {
   padding: 5px;
 }
 body.fl.light button.disabled {
   opacity: 0.6;
   filter: saturate(40%);
+}
+body.fl.light button.disabled:hover {
+  opacity: 0.7;
+  filter: saturate(30%);
 }
 body.fl.light [data-tooltip] {
   position: relative;
@@ -69,7 +65,7 @@ body.fl.light [data-tooltip]:after, body.fl.light [data-tooltip]:before {
   padding: 0;
   overflow: hidden;
   transition: opacity 1s ease, height 0s ease 0.6s;
-  transition-delay: 1.5s;
+  transition-delay: 0.7s;
   top: calc(100% - 6px);
   left: 0;
   margin-top: 12px;
@@ -142,27 +138,27 @@ body.fl.dark .rise:hover {
   transition: 70ms;
 }
 body.fl.dark .shadow {
-  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.3), 0 6px 20px 0 rgba(255, 255, 255, 0.5);
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.3), 0 6px 20px 0 rgba(255, 255, 255, 0.3);
 }
 body.fl.dark button {
   display: inline-block;
-  border-radius: 4px;
-  border-color: #043769;
-  border-style: solid;
-  border-width: 2.5px;
   background-color: #08b60b;
   color: #ffffff;
-  padding: 1px 5px;
   font-size: 16px;
   margin: 4px 0;
+  border: none;
+  padding: 3px 6px;
+  border-radius: 4px;
 }
 body.fl.dark button:hover {
   background-color: #043769;
   border-color: #054686;
 }
-body.fl.dark button.no-border {
-  border: none;
-  padding: 3px 6px;
+body.fl.dark button.border {
+  padding: 1px 5px;
+  border-color: #043769;
+  border-style: solid;
+  border-width: 2.5px;
 }
 body.fl.dark button.gray {
   background-color: gray;
@@ -171,20 +167,16 @@ body.fl.dark button.gray {
 body.fl.dark button.gray:hover {
   background-color: #8f8f8f;
 }
-body.fl.dark button.simple {
-  background-color: gray;
-  border: none;
-  padding: 3px 6px;
-}
-body.fl.dark button.simple:hover {
-  background-color: #8f8f8f;
-}
 body.fl.dark button.big {
   padding: 5px;
 }
 body.fl.dark button.disabled {
   opacity: 0.6;
   filter: saturate(40%);
+}
+body.fl.dark button.disabled:hover {
+  opacity: 0.7;
+  filter: saturate(30%);
 }
 body.fl.dark [data-tooltip] {
   position: relative;
@@ -198,7 +190,7 @@ body.fl.dark [data-tooltip]:after, body.fl.dark [data-tooltip]:before {
   padding: 0;
   overflow: hidden;
   transition: opacity 1s ease, height 0s ease 0.6s;
-  transition-delay: 1.5s;
+  transition-delay: 0.7s;
   top: calc(100% - 6px);
   left: 0;
   margin-top: 12px;
