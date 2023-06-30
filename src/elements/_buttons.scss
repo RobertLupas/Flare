@@ -13,7 +13,7 @@ button {
     border-color: lighten($accent-dark, 6);
   }
 
-  &.no-border {
+  &.border {
     padding: 1px 5px;
     border-color: $accent-dark;
     border-style: solid;
