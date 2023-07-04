@@ -4,7 +4,9 @@
 
 <p align="center">Flare is a modern UI toolkit for building beautiful and consistent desktop apps with Electron. Inspired by <a href="http://photonkit.com/">Photon</a> and the concept of <a href="https://microsoft.github.io/microsoft-ui-xaml/">WinUI</a></p>
 
-<h3 align="center"><b>Work in progress</b></h3>
+<h3 align="center">Please note this project is at an early stage and we are not ready for pull requests</h3>
+
+<h3 align="center">Work in progress</h3>
 
 <p align="center">
   <a href="https://github.com/half-real-SCRACX/Flare/blob/main/LICENSE">
