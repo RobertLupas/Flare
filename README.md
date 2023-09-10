@@ -2,7 +2,7 @@
 
 <h1 align="center">Flare</h1>
 
-<p align="center">Flare is a modern UI toolkit for building beautiful and consistent desktop apps with web technologies like <a href="https://www.electronjs.org/">Electron</a>. Inspired by <a href="http://photonkit.com/">Photon</a> and the concept of <a href="https://microsoft.github.io/microsoft-ui-xaml/">WinUI</a>.</p>
+<p align="center">Flare is a modern UI toolkit for building beautiful and consistent desktop (and web) apps with technologies like <a href="https://www.electronjs.org/">Electron</a>. Inspired by <a href="http://photonkit.com/">Photon</a> and the concept of <a href="https://microsoft.github.io/microsoft-ui-xaml/">WinUI</a>.</p>
 
 <h3 align="center">Please note this project is at an early stage and we are not ready for pull requests</h3>
 
