@@ -76,8 +76,8 @@ Flare is open-source, licensed as [GPL v3](https://www.gnu.org/licenses/gpl-3.0.
 
 ## 🧑‍💻 Authors
 
-- [@half-real-SCRACX](https://www.github.com/half-real-SCRACX)
+- [@RobertLupas](https://www.github.com/RobertLupas)
 
 ## 💬 Contact
 
-- SCRACX#1774 (Discord)
+- @scracx (Discord)
